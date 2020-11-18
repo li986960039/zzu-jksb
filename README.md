@@ -4,6 +4,7 @@
 
 建议Watch本项目以获取更新提示
 
+帅的人永远不需要打卡   --by TKDS
 
 
 ### 关于Github Actions自动停用
