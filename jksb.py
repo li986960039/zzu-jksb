@@ -67,7 +67,7 @@ class Log:
                 # if '1' in init_text:
                     #self.fp.writelines(u"{} --> 打卡成功 -->已填报过了 无需重复填写  ^_^ \n ".format(time.strftime("%Y-%m-%d  %H : %M: %S", time.localtime())))
                     print(u"{}  已完成上报啦 ，无需重复啦 ^_^ ".format(time.strftime("%Y-%m-%d  %H : %M: %S", time.localtime(time.time() + 8*3600))))
-                    Wechat('今日打卡','帅的人已经打过了哈哈')
+                    Wechat('今日打卡','帅的人已经打过了')
                     time.sleep(5)
                     sys.exit()
                 else:
